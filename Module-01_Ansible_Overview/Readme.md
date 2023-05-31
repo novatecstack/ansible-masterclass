@@ -1,2 +1,20 @@
 # Introduction to Ansible
  
+- Ansible is an open source community project sponsored by Red Hat | Developed by <b>Michael DeHaan</b>
+- Ansible is a powerful tool which can be used for automating IT tasks (e.g. software installation, configuring servers, deploying apps etc)
+- Ansible is agentless, relying on temporary remote connections via SSH/WinRM
+- Red Hat acquired Ansible in October 2015
+- [Ansible GitHub repository](github.com/ansible/ansible.git)
+- [Ansible Official Website](www.ansible.com)
+
+## What can you automate with Ansible ?
+
+- Hybrid cloud automation
+- Network Automation
+- IT Infrastructure provisioning
+- Configuration Management
+- Security Automation
+- Edge Automation
+
+## Ansible Architecture
+![image](https://github.com/novatecstack/ansible-masterclass/assets/121426292/50e7abaf-24da-4902-8eb9-faa6b453805b)
