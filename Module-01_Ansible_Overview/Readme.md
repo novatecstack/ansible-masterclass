@@ -27,4 +27,7 @@
 ### 2. With Ansible
 <img src="https://github.com/novatecstack/ansible-masterclass/assets/121426292/00dd9d91-8fcd-410c-a369-e946cebadd77" data-canonical-src="https://github.com/novatecstack/ansible-masterclass/assets/121426292/00dd9d91-8fcd-410c-a369-e946cebadd77" width="600" height="270" />
 
+## How does Ansible work ?
+The Ansible is agentless; in order to perform certain tasks on Servers (physical or virtual), it connects over the SSH and then executes playbook instructions on target machines.
 
+<img src="https://github.com/novatecstack/ansible-masterclass/assets/121426292/84a9e448-513b-42e4-b249-9a90af6fa135" data-canonical-src="https://github.com/novatecstack/ansible-masterclass/assets/121426292/84a9e448-513b-42e4-b249-9a90af6fa135" width="600" height="290" />
