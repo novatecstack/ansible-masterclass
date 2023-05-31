@@ -18,3 +18,13 @@
 
 ## Ansible Architecture
 ![image](https://github.com/novatecstack/ansible-masterclass/assets/121426292/50e7abaf-24da-4902-8eb9-faa6b453805b)
+
+## Performing IT management With and Without Ansible
+
+### 1. Without Ansible
+<img src="https://github.com/novatecstack/ansible-masterclass/assets/121426292/9fe1f16e-5ceb-4b60-ac7f-205b89e3bf33" data-canonical-src="https://github.com/novatecstack/ansible-masterclass/assets/121426292/9fe1f16e-5ceb-4b60-ac7f-205b89e3bf33" width="600" height="220" />
+
+### 2. With Ansible
+<img src="https://github.com/novatecstack/ansible-masterclass/assets/121426292/00dd9d91-8fcd-410c-a369-e946cebadd77" data-canonical-src="https://github.com/novatecstack/ansible-masterclass/assets/121426292/00dd9d91-8fcd-410c-a369-e946cebadd77" width="600" height="270" />
+
+
