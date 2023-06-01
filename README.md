@@ -16,3 +16,5 @@ This tutorial is divided into below modules:
 - Module-10: Application Deployment with Ansible
   - Strategy
   - Rolling Updates
+- Module-11: Ansible Handlers
+- Module-12: DevOps Integration with Ansible
