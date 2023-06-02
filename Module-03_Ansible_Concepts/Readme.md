@@ -1,4 +1,5 @@
 # Ansible Key Concepts
+![image](https://github.com/novatecstack/ansible-masterclass/assets/121426292/59325439-61f5-4da3-bfc1-f5ef139097f8)
 
 ## 1. Ansible Inventory
 
