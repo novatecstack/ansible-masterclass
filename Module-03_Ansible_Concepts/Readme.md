@@ -11,7 +11,8 @@ Now, lets explore these components in detail:
 - Ansible establishes connectivity with the hosts using SSH (for linux) and PowerShell remoting (for Windows) machines which makes Ansible agentless
 - The default location for the inventory file is /etc/ansible/hosts. 
 - You can also create project-specific inventory files in alternate locations
-- Ex. here is a sample inventory file with hosts details:
+
+Example: Sample inventory file with hosts details:
 ```
 webserver ansible_host=webserver.novatec.com ansible_connection=winrm ansible_user=root
 dbserver  ansible_host=dbserver.novatec.com ansible_connection=ssh ansible_user=root
