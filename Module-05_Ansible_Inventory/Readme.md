@@ -8,8 +8,8 @@
 
 ## Adding Variables to the inventory file
 
-## Ansible Inventory: INI Format | Groups in INI format | Groups within Groups - INI format
+## Ansible Inventory: INI Format | Groups | Groups within Groups
 
-## Ansible Inventory: YAML Format | Groups in YAML format | Groups withing Groups - YAML format
+## Ansible Inventory: YAML Format | Groups | Groups withing Groups
 
-
+## [Examples]()
