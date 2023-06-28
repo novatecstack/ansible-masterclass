@@ -42,13 +42,49 @@
      ```
      
 ## Organizing inventory in a custom directory
-
+   - You can consolidate multiple inventory sources in a single directory. The simplest version of this is a directory with multiple files instead of a single inventory file.
+   - A single file gets difficult to maintain when it gets too long.
+   - If you have multiple teams and multiple automation projects, having one inventory file per team or project lets everyone easily find the hosts and groups that matter to them.
+   - You can also combine multiple inventory source types in an inventory directory.
+   - This can be useful for combining static and dynamic hosts and managing them as one inventory.
+   - The following inventory directory combines an inventory plugin source, a dynamic inventory script, and a file with static hosts:
+     ```
+     inventory/
+        openstack.yml          # configure inventory plugin to get hosts from OpenStack cloud
+        dynamic-inventory.py   # add additional hosts with dynamic inventory script
+        on-prem                # add static hosts and groups
+        parent-groups          # add static hosts and groups
+     ```
+   - You can also configure the inventory directory in your *ansible.cfg*
+   
 ## Adding Variables to the inventory file
 
-## Ansible Inventory: INI Format | Groups | Groups within Groups
-
-## Ansible Inventory: YAML Format | Groups | Groups withing Groups
-
-## [Examples]()
-
+## Assigning variables to many hosts: Group Variables
+   - If all hosts in a group share a variable value, you can apply that variable to an entire group at once.
+   - In INI inventory file, it will be like:
+     ```
+     [mumbaiServers]
+        host1
+        host2
+        
+     [mumbaiServers:vars]
+        smtp_server=smtp.mumbai.novatec.com
+        proxy=proxy.mumbai.novatec.com
+     ```
+   - In YAML inventory file, it will be like:
+     ```
+      mumbai:
+        hosts:
+          host1:
+          host2:
+        vars:
+          smtp_server: smtp.mumbai.novatec.com
+          proxy: proxy.mumbai.novatec.com
+     ```
+     
+## [Ansible Inventory Parameters (Variables)](https://github.com/novatecstack/ansible-masterclass/blob/main/Module-05_Ansible_Inventory/inventory-variables.md)
+   
 ## Working with Dynamic Inventory
+
+## Reference Links
+   - [Ansible Inventory Official Documentation](https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html)
