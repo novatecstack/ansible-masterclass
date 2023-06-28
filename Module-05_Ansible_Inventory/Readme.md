@@ -22,8 +22,25 @@
       dbserver1.novatec.com
       dbserver2.novatec.com
     ```
-## Passing multiple inventory sources
 
+## How to connect to remote host using Ansible inventory file (INI/YAML) ?
+   ```
+   # With inventory in INI format 
+   ansible -i 02-sample-inventory.ini -m ping
+   ```
+   ```
+   # With inventory in YAML format
+   ansible -i 04-sample-inventory.yaml -m ping
+   ```
+
+## Passing multiple inventory sources
+   - You can target multiple inventory sources at the same time by giving multiple inventory parameters from the command line or by configuring ANSIBLE_INVENTORY.
+   - This can be useful when you want to target normally separate environments, like staging and production, at the same time for a specific action.
+   - To target two inventory sources from the command line:
+     ```
+     ansible-playbook get_logs.yml -i staging-inventory.yml -i prod-inventory.yml
+     ```
+     
 ## Organizing inventory in a custom directory
 
 ## Adding Variables to the inventory file
